@@ -21,8 +21,20 @@
 	"customizations": {
 	    // Configure properties specific to VS Code.
 	    "vscode": {
+	      "settings": { 
+		"workbench.iconTheme": "material-icon-theme",
+		"python.testing.pytestArgs": [
+			"."
+		],
+		"python.testing.unittestEnabled": false,
+		"python.testing.pytestEnabled": true
+	      },
 	      // Add the IDs of extensions you want installed when the container is created.
-	      "extensions": ["flyfly6.terminal-in-status-bar"]
+	      "extensions": [
+		"flyfly6.terminal-in-status-bar",
+		"PKief.material-icon-theme",
+		"littlefoxteam.vscode-python-test-adapter"
+	      ]
 	    }
 	  }
 
