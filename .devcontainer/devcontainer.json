@@ -33,7 +33,8 @@
 			"extensions": [
 				"flyfly6.terminal-in-status-bar",
 				"PKief.material-icon-theme",
-				"littlefoxteam.vscode-python-test-adapter"
+				"littlefoxteam.vscode-python-test-adapter",
+				"MS-vsliveshare.vsliveshare"
 			]
 		}
 	}
